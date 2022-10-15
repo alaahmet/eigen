@@ -1,4 +1,3 @@
-#my eigen templates
 requires eigen library.
 Install on ubuntu using the following command:
 ```powershell
