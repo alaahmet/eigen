@@ -5,10 +5,10 @@ int main(){
     Eigen::VectorXd b(n);
     Eigen::VectorXd c(n);
     Eigen::VectorXd d(n);
+    Eigen::MatrixXd A(n+1,n+1);
     d << 1,1,2,3,5;
     c << 12,13,14,15,16;
     b << 25,26,27,28,29;
-    Eigen::MatrixXd A(n+1,n+1);
     A.setZero();
     A.diagonal().head(n) = d;
     A.col(n).head(n) = c;
