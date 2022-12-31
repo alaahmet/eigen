@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 #include <eigen3/Eigen/Dense>
 using namespace std;
+// A := G_{1,4}
 int main(){
     Eigen::VectorXd v = Eigen::VectorXd(5);
     v << 13,8,4,92,3223; // vector
